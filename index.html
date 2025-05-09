@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <title> Finance Tracker </title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        
+        <h1>Your Finance Tracker</h1>
+        <div>
+            <input type="text" id="name" placeholder="Transaction Name" />
+            <input type="number" step="50" id="amount" placeholder="amount (+/-)" />
+            <button onclick="handleAdd()" id="but_add"> Add Transaction </button>
+        </div>
+        <h2>Total Balance: <span id="balance" > 0 </span> </h2>
+
+        <ol id="transaction"> </ol>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
