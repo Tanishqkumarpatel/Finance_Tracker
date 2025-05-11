@@ -1,7 +1,8 @@
-# 💰 Expense Tracker
+# 💰 Finance Tracker
 
 A simple, responsive web app to track income and expenses. Users can add transactions, see a running balance, and delete entries — all in real-time using JavaScript.
 
+![screenshot](./Webpage_Screenshot.png)
 ---
 
 ## 🚀 Features
